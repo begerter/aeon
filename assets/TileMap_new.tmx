@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="75" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tmw_lab_spacing3" tilewidth="64" tileheight="64" spacing="2" margin="2">
+  <tileoffset x="2" y="2"/>
+  <image source="tmw_lab_spacing3.png" width="530" height="398"/>
+ </tileset>
+ <tileset firstgid="49" name="meta2" tilewidth="64" tileheight="64" spacing="1" margin="1">
+  <tileoffset x="1" y="1"/>
+  <image source="meta2.png" width="391" height="66"/>
+  <tile id="0">
+   <properties>
+    <property name="collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collectable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="conversable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="moveable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="killable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="exitable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="100" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt2cFOwzAQRdGIZZZ8QEEsuuX//w4hBSmKahInnrw39l1ciQ2tPQfXpZ2naZqXHqvmRD2EqfainvneHj468vh+8TzPVRk8ejofX8n3sn7Mu/eCx7gen0vue1F4/N1XUR6lImeXzeM5xd+ryr/lbB6Rc1F1h8eR847HPR6RRb6Oj+6xvQc4H1oPXq/iPHpc08h7d1zTyHt3XNPIe3dc08h7d1zTyHuvWVOW92aZ31vWemw/xzoTHpwPPK7t58pj/v6891ne1c/38MAjs0d0eOBRM6Pa83/0uWpeX/CI9+B85PWIaO8sRnq0WDceeCg83HPw2P5ui/83lB7Z7w88vJ6r5HFlnXffH4q7Bg888Gjj8er7k9IdgAfnAw88FB4t1tm7R5ZaeihTzzHKo8X3gXhoPJys1HNs7XEmPPDAAw888MDDIzy8wsOrTB7/PZd6jnjggQceePiGh1d4eIXHuZm1DA/f8MiTeo4OHk7f56rn6OBxxCniHsHDP/UcR4vZe4WHV3h4hYdX6vcLpd6X1PPBY+wzq553qbcl9XyIiIiIeusH2DAeAg==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="100" height="75">
+  <object name="SpawnPoint" x="292" y="33"/>
+ </objectgroup>
+ <layer name="Foreground" width="100" height="75">
+  <data encoding="base64" compression="zlib">
+   eJzt3EsOgyAUAEBv0l27U+9/uqZpm5hGpVWsD5hJCC5cEPnpA+k6AKK6nV0AinM5uwCQYFyjRkMipw79Kx9PLQUAAABQkuuGBC0ZfrwG2GOYpLdpzN9a+7o+fQs0afzIIbeS29Zc/4gy39rX8RSlPrbyfkILSu+nNSh5Li5N6/My7JVjvNIPAdp2dLxkaY+E7x6i0jaxz4uaiXlBHNa71nk+saiPWMRzAeb53olFfaTNxZtS51h9m0Ntjjq70JmIaf0kkU/Of8/3rms96ta8DQAAAADAv9wBXFERTg==
+  </data>
+ </layer>
+ <layer name="Meta" width="100" height="75">
+  <data encoding="base64" compression="zlib">
+   eJztnEF2gzAMRHMlSNv7Hy2b9JVQg20saQZr5r1ZhIAlzY/DJmR5PB7L21stNzJSqFnQmddmWDtmsZTHLFsuz0Idj7raH208IuXBo2WWL4Pet/XEY4yHpbx4fIdN8Kc78/jNy4tHbVav7Jh57L/XerMbneVMGXm0yJpHtD1m6VnTWug82Xl4qlQTnecsPKx4ovOchYeV0Hky8pixp8yzM/aUeXbGnjLPzthT5tkZe8o8e09PloqayUssPKxqikeu/eHNMRuPkTVb1hcP/1ricV3ePLwlHu1rRoidh8X5pWtr56yFcyOUlUePxOP82pF5WHTUTwQPi77FQzw8xdZPq44yPfptmweP/bUWNZA8PO4fR7/1Fo/22hHfIZE8RhR9/0Dca1rmGVmz9PrqMxniof3BzKOnJ/EYn1P7QzxG1twfz8LDos/ZedzFtSzvInSOXjxq57EKnSMDj6usjmqMPIuOztGax0gGDELnaM3jymdTPObaH5b9oXOcgYel0DmKx6fQOYrHp9A5ZuRxVgudo3j8f28Gj0g8xOPsvRk8IvHg4hEt8eCSeHBJPOqK7E88uCQe/bL8T9aeddE5MvBg2mfoHC15WDJcHfs8EzrHqDnvInSO2azsuSweXBYPLosHl1n18zY6n4w8noVj4sGlrDxkWZZlWZa9/QJoKoeu
+  </data>
+ </layer>
+</map>
